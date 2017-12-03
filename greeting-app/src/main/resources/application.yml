@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting
+
+management:
+  security:
+    enabled: false
+
+greeting:
+  displayFortune: true
+
+fortuneService:
+  baseUrl: http://localhost:8081  
